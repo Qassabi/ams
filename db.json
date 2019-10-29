@@ -1,9 +1,17 @@
 {
-  "airlineCode": "WY",
-  "description": "Oman Air",
-  "flightNumber": 123,
-  "counterNumber": "A1",
-  "destination": "Dubai",
-  "checkinTimeStart": "2019-11-18 14:45:00.000",
-  "checkinTimeStop": "2019-11-18 16:45:00.000"
+"Airlines": [
+    { "id": 1, "code": "WY", "description": "Oman Air" },
+    { "id": 2, "code": "QR", "description": "QATAR AIRWAYS" },
+    { "id": 3, "code": "FZ", "description": "Fly Dubai" }
+  ],
+"Flights" : [
+    { "id": 1, "airlineID": 1, "flightNumber": 123 },
+    { "id": 2, "airlineID": 2, "flightNumber": 369 },
+    { "id": 3, "airlineID": 3, "flightNumber": 987 }
+],
+"Counter" : [
+    { "counterNumber": "A1", "checkinTimeStart": "2019-11-18 14:45:00.000", "checkinTimeStop": "2019-11-18 16:45:00.000" },
+    { "counterNumber": "C5", "checkinTimeStart": "2019-11-18 09:05:00.000", "checkinTimeStop": "2019-11-18 11:00:00.000" },
+    { "counterNumber": "B3", "checkinTimeStart": "2019-11-18 20:05:00.000", "checkinTimeStop": "2019-11-18 22:05:00.000" }
+]
 }
