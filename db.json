@@ -1,9 +1,14 @@
-  {
-  "airlineCode": "WY",
-  "description": "Oman Air",
-  "flightNumber": 123,
-  "counterNumber": "A1",
-  "destination": "Dubai",
-  "checkinTimeStart": "2019-11-18 14:45:00.000",
-  "checkinTimeStop": "2019-11-18 16:45:00.000"
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
